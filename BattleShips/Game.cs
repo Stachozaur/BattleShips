@@ -12,7 +12,6 @@ namespace BattleShips
         public Game()
         {
             var playersTurn = InitializeGame.InitializePlayers();
-
             while (!IsOver)
             {
                 while (playersTurn.Count > 0)

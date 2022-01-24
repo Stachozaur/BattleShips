@@ -119,5 +119,12 @@ namespace BattleShips
             }
             return GetShootCoordinate();
         }
+
+        public static void WelcomeMessage()
+        {
+            PrintMessage("Welcome to battleships game. Put your ships on the map, and destroy your enemy fleet.");
+            PrintMessage("You got 2 submarines, 2 destroyers, one cruiser and one battleship. Good luck!");
+            Console.WriteLine();
+        }
     }
 }

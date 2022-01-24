@@ -10,7 +10,7 @@ namespace BattleShips
     {
         private Board _board;
         public string Name { get; set; }
-        private List<ShipTypes> _shipTypesList = new List<ShipTypes>() { ShipTypes.Submarine, ShipTypes.Cruiser };
+        private List<ShipTypes> _shipTypesList = new List<ShipTypes>() { ShipTypes.Submarine, ShipTypes.Submarine, ShipTypes.Destroyer, ShipTypes.Destroyer, ShipTypes.Cruiser, ShipTypes.Battleship };
 
         public Player()
         {

@@ -10,6 +10,8 @@ namespace BattleShips
     {
         public static Queue<Player> InitializePlayers()
         {
+            UI.WelcomeMessage();
+
             Queue<Player> playersTurn = new Queue<Player>();
             var players = 2;
             for (int i = 0; i < players; i++)
